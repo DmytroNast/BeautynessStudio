@@ -24,6 +24,9 @@
     display: flex;
     justify-content:flex-start;
     justify-content:space-around;
+    gap: 17px;
+    position: relative;
+    right: 45px;
 }
 
 .header__phone {
@@ -53,6 +56,8 @@
     font-size: 17px;
     line-height: 26px;
     color: #141414;
+    
+    
 }
 
 .header__logo__nav__ul button {
@@ -81,7 +86,8 @@
 .conteiner1 {
     background: #EBF3F5;
     border-radius: 0px;
-    min-height: 885px;
+    height: 950px;
+    
 }
 .conteiner1 h2 {
     height: 23px;
@@ -162,14 +168,14 @@
     z-index: 1;
     position: relative;
     top: 105px;
-    left: 215px;
+    left: 25px;
 }
 
 .conteiner1_pic1 {
     z-index: 5;
     position: relative;
     top: -510px;
-    right: -120px;
+    right: 25px;
 }
 
 .conteiner2 {
@@ -177,6 +183,9 @@
     justify-content:center;
     gap: 40px;
     padding-top: 100px;
+    position: relative;
+    left: 45px;
+    padding-bottom: 100px;
 }
 
 .figure h2 {
@@ -235,6 +244,84 @@
     color: #141414;
 }
 
+.conteiner3 {
+    height: 836px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    background: #EBF3F5;
+    border-radius: 0px;
+}
+
+.conteiner3 h3 {
+    height: 23px;
+    left: 0%;
+    right: 75.15%;
+    top: -0.88px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #5C8692;
+    padding-top: 140px;
+    padding-left: 72px;
+}
+
+.conteiner3 h2 {
+    height: 176px;
+    left: 0%;
+    right: 12.86%;
+    top: 26.12px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: 0.45px;
+    color: #141414;
+    padding-top: 15px;
+    padding-left: 72px;
+}
+
+.conteiner3 h4 {
+    height: 92px;
+    left: 0%;
+    right: 0.1%;
+    top: 216.12px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    color: #555555;
+    padding-top: 15px;
+    padding-left: 72px;
+}
+.conteiner3__flex {
+    display: flex;
+    justify-content:center;
+    gap: 15px;
+    margin-top: 65px;
+    position: relative;
+    right: -40px;
+    top: 30px;
+}
+
+.conteiner3__flex__Pic0 {
+    z-index: 0;
+    position: relative;
+    top: 131px;
+    left: 40px;
+}
+.conteiner3__flex__Pic1 {
+    z-index: 5;
+    position: relative;
+    top: -485px;
+    left: 85px;
+}
 
 
 
