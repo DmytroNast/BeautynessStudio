@@ -102,8 +102,8 @@
     letter-spacing: 1.5px;
     text-transform: uppercase;
     color: #5C8692;
-    margin-top: 300px;
-    margin-left: 120px;
+    margin-top: 200px;
+    margin-left: 60px;
 }
 
 .conteiner1 h1 {
@@ -118,7 +118,7 @@
     line-height: 72px;
     letter-spacing: 0.66px;
     color: #141414;
-    margin-left: 120px;
+    margin-left: 60px;
     margin-bottom: 20px;
 
 }
@@ -134,7 +134,7 @@
     font-size: 19px;
     line-height: 30px;
     color: #555555;
-    margin-left: 120px;
+    margin-left: 60px;
     margin-bottom: 25px;
 }
 
@@ -145,7 +145,7 @@
     background: #5C8692;
     border: 2px solid #5C8692;
     border-radius: 0px;
-    margin-left: 120px
+    margin-left: 60px
 }
 
 .conteiner1 a {
@@ -168,7 +168,7 @@
     z-index: 1;
     position: relative;
     top: 105px;
-    left: 25px;
+    left: 12px;
 }
 
 .conteiner1_pic1 {
@@ -183,9 +183,8 @@
     justify-content:center;
     gap: 40px;
     padding-top: 100px;
-    position: relative;
-    left: 45px;
     padding-bottom: 100px;
+    width: 1335px;
 }
 
 .figure h2 {
@@ -267,7 +266,7 @@
     text-transform: uppercase;
     color: #5C8692;
     padding-top: 140px;
-    padding-left: 72px;
+    padding-left: 60px;
 }
 
 .conteiner3 h2 {
@@ -283,7 +282,7 @@
     letter-spacing: 0.45px;
     color: #141414;
     padding-top: 15px;
-    padding-left: 72px;
+    padding-left: 60px;
 }
 
 .conteiner3 h4 {
@@ -298,7 +297,7 @@
     line-height: 31px;
     color: #555555;
     padding-top: 15px;
-    padding-left: 72px;
+    padding-left: 60px;
 }
 .conteiner3__flex {
     display: flex;
@@ -306,22 +305,137 @@
     gap: 15px;
     margin-top: 65px;
     position: relative;
-    right: -40px;
+    right: -32px;
     top: 30px;
 }
 
 .conteiner3__flex__Pic0 {
-    z-index: 0;
-    position: relative;
-    top: 131px;
-    left: 40px;
-}
-.conteiner3__flex__Pic1 {
     z-index: 5;
     position: relative;
-    top: -485px;
-    left: 85px;
+    top: 140px;
+    left: 50px;
+    width: 300px;
 }
+.conteiner3__flex__Pic1 {
+    z-index: 0;
+    position: relative;
+    top: -485px;
+    left: 100px;
+    width: 300px;
+}
+
+
+.conteiner4 h3 {
+    width: 127px;
+    height: 23px;
+    left: calc(50% - 127px/2 + 0.5px);
+    top: -0.88px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #5C8692;
+    width: 100%;
+    margin-top: 150px;
+    
+}
+
+.conteiner4 h2 {
+    width: 580px;
+    height: 59px;
+    left: calc(50% - 580px/2);
+    top: 26.12px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.45px;
+    color: #141414;
+    width: 100%;
+    height: 223px;
+}
+
+#conteiner4__pic1 {
+    filter: drop-shadow(1px 0px 18px rgba(0, 0, 0, 0.2));
+    border-radius: 0px;
+    width: 600px;
+    height: 650px;
+}
+
+.conteiner4__price h2 {
+    height: 27px;
+    left: 0%;
+    right: 5.19%;
+    top: calc(50% - 27px/2 - 1.5px);
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.264px;
+    text-transform: capitalize;
+    color: #141414;
+}
+
+.conteiner4__price h3 {
+    height: 27px;
+    left: 18%;
+    right: 0%;
+    top: calc(50% - 27px/2 - 1px);
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #555555;
+}
+
+.conteiner4__price__flex {
+    display: flex;
+    justify-content: space-between;
+    width: 540px;
+
+}
+
+#conteiner4__price__flex__h3 {
+    position: relative;
+    left: 150px;
+}
+
+.conteiner4__btn button {
+    box-sizing: border-box;
+    height: 57px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    border: 2px solid #5C8692;
+    border-radius: 0px;
+    width: 248px;
+    height: 57px;
+}
+
+.conteiner4__btn button a{
+    width: 184px;
+    height: 20px;
+    left: calc(50% - 184px/2);
+    top: 18px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 1.56px;
+    text-transform: uppercase;
+    color: #141414;
+}
+
 
 
 
