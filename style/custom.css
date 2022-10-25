@@ -366,6 +366,20 @@
     border-radius: 0px;
     width: 600px;
     height: 650px;
+    display: flex;
+    float: right;
+}
+
+.conteiner4__pic2 {
+    height: 650px;
+    width: 600px;
+    filter: drop-shadow(1px 0px 18px rgba(0, 0, 0, 0.2));
+    border-radius: 0px;
+    display: flex;
+    float: left;
+}
+.conteiner4__pic2 img {
+    margin-left: -41px;
 }
 
 .conteiner4__price h2 {
@@ -396,6 +410,10 @@
     color: #555555;
 }
 
+.conteiner4__price {
+    width: 540px;
+}
+
 .conteiner4__price__flex {
     display: flex;
     justify-content: space-between;
@@ -406,6 +424,41 @@
 #conteiner4__price__flex__h3 {
     position: relative;
     left: 150px;
+}
+
+#conteiner4__price__flex__h3_1 {
+    position: relative;
+    left: 155px;
+}
+
+#conteiner4__price__flex__h3_2 {
+    position: relative;
+    left: 148px;
+}
+
+#conteiner4__price__flex__h3_3 {
+    position: relative;
+    left: 129px;
+}
+
+#conteiner4__price__flex__h3_4 {
+    position: relative;
+    left: 129px;
+}
+
+#conteiner4__price__flex__h3_5 {
+    position: relative;
+    left: 136px;
+}
+
+#conteiner4__price__flex__h3_6 {
+    position: relative;
+    left: 142px;
+}
+
+#conteiner4__price__flex__h3_7 {
+    position: relative;
+    left: 167px;
 }
 
 .conteiner4__btn button {
@@ -436,7 +489,77 @@
     color: #141414;
 }
 
+.conteiner4__price__for_shift2 {
+    display: flex;
+    float: right;
+    margin-right: 60px;
+    margin-top: 20px;
+}
 
+.conteiner4__price__for_shift1 {
+    position: relative;
+    left: 35px;
+    top: 5px;
+    width: 540px;
+}
+
+.section4_middle1 {
+    position: relative;
+    left: -24px;
+    top: 31px;
+}
+
+.section4_middle2 {
+    position: relative;
+    left: 561px;
+    
+}
+
+.conteiner5 {
+    height: 655px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    background: #EBF3F5;
+    border-radius: 0px;
+    margin-top: 200px;
+}
+
+.conteiner5__head h3 {
+    width: 131px;
+    height: 23px;
+    left: calc(50% - 131px/2 + 0.5px);
+    top: -0.88px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #5C8692;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.conteiner5__head h2 {
+    width: 577px;
+    height: 59px;
+    left: calc(50% - 577px/2 + 0.5px);
+    top: 26.12px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.45px;
+    color: #141414;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
 
 
 
