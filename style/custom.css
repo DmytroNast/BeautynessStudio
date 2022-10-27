@@ -731,6 +731,10 @@
     letter-spacing: 1.5px;
     text-transform: uppercase;
     color: #5C8692;
+    padding-top: 175px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    
 }
 
 .conteiner7__text h2 {
@@ -745,6 +749,7 @@
     line-height: 58px;
     letter-spacing: 0.45px;
     color: #141414;
+    padding-left: 50px;
 }
 
 .conteiner7__text h4 {
@@ -759,15 +764,132 @@
     line-height: 31px;
     color: #555555;
     padding-top: 127px;
+    padding-left: 50px;
 }
 
 .conteiner7__text2 {
+    display: flex;
     padding-top: 100px;
+    margin-left: 50px;
+
+}
+
+.conteiner7__flx {
+    display: flex;
+    height: 173px;
+    width: 330px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    background: #FFFFFF;
+    border-radius: 0px;
+    border: 3px solid #5C8692;
+}
+
+.conteiner7__flx h3 {
+    height: 21px;
+    left: 0%;
+    right: 65.92%;
+    top: -0.17px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #141414;
+    padding-top: 28px;
+    padding-bottom: 7px;
+    padding-left: 40px;
+}
+
+.conteiner7__flx a {
+    height: 23px;
+    left: 0%;
+    right: -0.1%;
+    top: 19.83px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 1.2px;
+    color: #141414;
+    padding-top: 10px;
+    padding-left: 40px;
 }
 
 
+.conteiner7__flx2 {
+    height: 173px;
+    width: 194px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+    background: #1E2C30;
+    border-radius: 0px;
+    
+    padding-top: 15px;
 
+}
 
+.conteiner7__flx2 h2 {
+
+    height: 23px;
+    left: calc(50% - 109px/2 - 0.5px);
+    top: 22px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.conteiner7__flx2 h3 {
+
+    height: 78px;
+    left: calc(50% - 144px/2);
+    top: 39px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 78px;
+    text-align: center;
+    letter-spacing: 0.78px;
+    color: #FFFFFF;
+}
+
+.conteiner7__flx2 h4 {
+
+    height: 27px;
+    left: calc(50% - 95px/2 - 0.5px);
+    top: 122px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 1.8px;
+    color: #FFFFFF;
+}
+
+.conteiner7_dots1 {
+    position: relative;
+    top: 25px;
+    left: 20px;
+}
+
+.conteiner7_dots2 {
+    position: relative;
+    top: 68px;
+    left: 20px;
+}
 
 
 
