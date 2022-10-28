@@ -45,10 +45,10 @@
     top: 7px;
 }
 
-.header__logo__nav__ul li {
+.header__logo__nav__ul li a {
     height: 26px;
-    left: 4.58%;
-    right: 83.48%;
+    left: 25.97%;
+    right: 62.09%;
     top: 20px;
     font-family: 'Manrope';
     font-style: normal;
@@ -56,8 +56,6 @@
     font-size: 17px;
     line-height: 26px;
     color: #141414;
-    
-    
 }
 
 .header__logo__nav__ul button {
@@ -72,7 +70,7 @@
 
 }
 
-.header__logo__nav__ul a {
+.header__logo__nav__ul button a {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 400;
@@ -83,11 +81,15 @@
     color: #FFFFFF;
 }
 
+.header__logo__nav__ul button:hover {
+    background: #06b9eb;
+}
+
 .conteiner1 {
     background: #EBF3F5;
     border-radius: 0px;
     height: 950px;
-    
+    width: 100%;
 }
 .conteiner1 h2 {
     height: 23px;
@@ -148,6 +150,11 @@
     margin-left: 60px
 }
 
+.conteiner1 button:hover {
+    background: #06b9eb;
+}
+
+
 .conteiner1 a {
     width: 174px;
     height: 20px;
@@ -184,7 +191,7 @@
     gap: 40px;
     padding-top: 100px;
     padding-bottom: 100px;
-    width: 1335px;
+    width: 100%;
 }
 
 .figure h2 {
@@ -226,6 +233,11 @@
     border: 2px solid #5C8692;
     border-radius: 0px;
 }
+
+.figure button:hover {
+    background: #88dff7;
+}
+
 
 .figure a {
     width: 93px;
@@ -472,6 +484,11 @@
     width: 248px;
     height: 57px;
 }
+
+.conteiner4__btn button:hover {
+    background: #88dff7;
+}
+
 
 .conteiner4__btn button a{
     width: 184px;
@@ -911,29 +928,52 @@
 .form_name img {
     position: relative;
     top: 42px;
+    right: 40px;
 }
 
 .form_mail img {
     position: relative;
     top: 42px;
+    right: 40px;
 }
 
 .form_phone img {
     position: relative;
     top: 42px;
+    right: 40px;
 }
-.form_phone input {
-    height: 45px;
-}
+
 
 .form_book img {
     position: relative;
     top: 42px;
+    right: 40px;
 }
 
 .form_notes img {
     position: relative;
     top: 42px;
+    right: 40px;
+}
+
+.form_name {
+    margin-top: -50px;
+}
+
+.form_mail {
+    margin-top: -45px;
+}
+
+.form_phone {
+    margin-top: -45px;
+}
+
+.form_book {
+    margin-top: -45px;
+}
+
+.form_notes {
+    margin-top: -45px;
 }
 
 .conteiner7__form button {
@@ -1076,6 +1116,11 @@
     top: -106px;
 }
 
+.con8_btn button:hover {
+    background: #88dff7;
+}
+
+
 .con8_btn a {
     width: 166px;
     height: 20px;
@@ -1104,8 +1149,10 @@
 
 .footer__iconflex {
     display: flex;
+    gap: 7px;
     
 }
+
 
 .footer__logoflex {
     display: flex;
@@ -1265,4 +1312,168 @@
     text-align: center;
     letter-spacing: 0.15px;
     color: #FFFFFF;
+}
+
+@media (max-width: 1302px) {
+    .header__logo {
+        display: flex;
+        justify-content:flex-start;
+        
+    }
+    
+    .header__logo__nav__ul {
+        display: flex;
+        justify-content:flex-start;
+        justify-content:space-around;
+        gap: 17px;
+        position: relative;
+        right: 45px;
+    }
+    
+    .header__phone {
+        height: 24px;
+        left: 17.19%;
+        right: 0%;
+        top: 2.33px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #141414;
+        position: relative;
+        left: 35px;
+        top: 7px;
+    }
+    
+    .header__logo__nav__ul li a {
+        height: 26px;
+        left: 25.97%;
+        right: 62.09%;
+        top: 20px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 26px;
+        color: #141414;
+    }
+    
+    .header__logo__nav__ul button {
+        box-sizing: border-box;
+        height: 59px;
+        width: 201px;
+        background: #5C8692;
+        border: 2px solid #5C8692;
+        border-radius: 0px;
+        position: relative;
+        top: -16px;
+    }
+    
+    .header__logo__nav__ul button a {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    
+    .header__logo__nav__ul button:hover {
+        background: #06b9eb;
+        }
+
+
+    }
+
+    @media (max-width: 1280px) {
+    .conteiner3 h4 {
+        height: 92px;
+        left: 0%;
+        right: 0.1%;
+        top: 216.12px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 31px;
+        color: #555555;
+        padding-top: 15px;
+        padding-left: 60px;
+    }
+
+}
+
+@media (max-width: 1247px) {
+    .header__logo {
+        display: flex;
+        justify-content:flex-start;
+        
+    }
+    
+    .header__logo__nav__ul {
+        display: flex;
+        justify-content:flex-start;
+        justify-content:space-around;
+        gap: 17px;
+        position: relative;
+        right: 45px;
+    }
+    
+    .header__phone {
+        height: 24px;
+        left: 17.19%;
+        right: 0%;
+        top: 2.33px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        color: #141414;
+        position: relative;
+        left: 35px;
+        top: 7px;
+    }
+    
+    .header__logo__nav__ul li a {
+        height: 26px;
+        left: 25.97%;
+        right: 62.09%;
+        top: 20px;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        color: #141414;
+    }
+    
+    .header__logo__nav__ul button {
+        box-sizing: border-box;
+        height: 59px;
+        width: 201px;
+        background: #5C8692;
+        border: 2px solid #5C8692;
+        border-radius: 0px;
+        position: relative;
+        top: -16px;
+    }
+    
+    .header__logo__nav__ul button a {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 21px;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    
+    .header__logo__nav__ul button:hover {
+        background: #06b9eb;
+        }
 }
