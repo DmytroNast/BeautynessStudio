@@ -923,9 +923,7 @@
     padding: 50px;
 }
 
-#form__big  input {
-    height: 130px;
-}
+
 
 .form_name img {
     position: relative;
@@ -959,23 +957,23 @@
 }
 
 .form_name {
-    margin-top: -50px;
+    margin-top: 0px;
 }
 
 .form_mail {
-    margin-top: -45px;
+    margin-top: 10px;
 }
 
 .form_phone {
-    margin-top: -45px;
+    margin-top: 10px;
 }
 
 .form_book {
-    margin-top: -45px;
+    margin-top: 10px;
 }
 
 .form_notes {
-    margin-top: -45px;
+    margin-top: 10px;
 }
 
 .conteiner7__form button {
@@ -988,6 +986,11 @@
     background: #5C8692;
     border: 2px solid #5C8692;
     border-radius: 0px;
+    margin-top: 10px;
+}
+
+.form__btn button:hover {
+    background: #06b9eb !important; 
 }
 
 .conteiner8__head h3 {
@@ -1030,7 +1033,7 @@
     justify-content:center;
     gap: 25px;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 7px;
     margin-left: 12px;
 }
 
@@ -1102,7 +1105,11 @@
     border-radius: 0px;
 }
 
-
+.con8_btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
 
 .con8_btn button {
     box-sizing: border-box;
@@ -1113,9 +1120,7 @@
     top: 0px;
     border: 2px solid #5C8692;
     border-radius: 0px;
-    position: relative;
-    left: 555px;
-    top: -106px;
+    
 }
 
 .con8_btn button:hover {
