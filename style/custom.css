@@ -59,6 +59,10 @@
     text-decoration: none;
 }
 
+.header__logo__nav__ul li a:hover {
+    background-color: #c0d5db;
+}
+
 .header__logo__nav__ul button {
     box-sizing: border-box;
     height: 59px;
@@ -1160,6 +1164,10 @@
     
 }
 
+.footer__iconflex a img:hover {
+    background: #4e5658;
+}
+
 
 .footer__logoflex {
     display: flex;
@@ -1188,7 +1196,10 @@
     color: #FFFFFF;
 }
 
-.footer__nav1 li {
+
+
+
+.footer__nav1 li a {
     height: 29px;
     left: 0%;
     right: 76.61%;
@@ -1200,6 +1211,11 @@
     line-height: 29px;
     letter-spacing: 0.17px;
     color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer__nav1 li a:hover {
+    background: #4e5658;
 }
 
 .footer__nav2 ul {
@@ -1216,7 +1232,8 @@
     color: #FFFFFF;
 }
 
-.footer__nav2 li {
+
+.footer__nav2 li a {
     height: 29px;
     left: -0.15%;
     right: 61.03%;
@@ -1228,6 +1245,11 @@
     line-height: 29px;
     letter-spacing: 0.17px;
     color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer__nav2 li a:hover {
+    background: #4e5658;
 }
 
 .footer__nav3 ul {
@@ -1290,7 +1312,7 @@
     justify-content: space-between;
     margin-top: 60px;
     margin-right: 70px;
-    margin-bottom: 273px;
+    margin-bottom: 370px;
     margin-left: 50px;
 }
 
