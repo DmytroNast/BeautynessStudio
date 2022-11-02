@@ -1371,3 +1371,20 @@
 .header__logo__nav__conteiner {
     width: 100%;
 }
+
+@media (max-width: 1280px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 768px) {
+
+
+}
+
+@media (max-width: 320px) {
+    
+}
