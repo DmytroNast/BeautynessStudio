@@ -20,27 +20,67 @@
         width: 100%;
         max-width: 1920px;
         position: relative;
-}
+    }
+
+    .header__menu__1280 {
+        display: none;
+    }
+
+    .section4_middle1 {
+        display: none;
+    }
+    
+    .section4_middle2 {
+        display: none;
+    }
+
+    .conteiner4__price__for_shift1 {
+        position: relative;
+        left: -110px;
+        top: 5px;
+        width: 540px;
+    }
+
+    .conteiner4__price__for_shift1 {
+    position: relative;
+    left: -110px;
+    top: 5px;
+    width: 540px;
+    }
+
+    .footer__line img {
+        width: 1750px;
+    }
+
 
 }
+
+
+
+
+
 
 @media (max-width: 1600px) {
     .header__conteiner {
         width: 100%;
-        max-width: 1390px;
+        max-width: 1600px;
         position: relative;
     }
 
     .conteiner {
         width: 100%;
-        max-width: 1360px;
+        max-width: 1600px;
         position: relative;
     }
 
     .footer {
         width: 100%;
-        max-width: 1360px;
+        max-width: 1600px;
         position: relative;
+    }
+
+    .footer__line img {
+        width: 1420px;
     }
 
     .header__menu__1280 {
@@ -48,6 +88,11 @@
     }
 
 }
+
+
+
+
+
 
 @media (max-width: 1344px) {
     .header__logo__nav__conteiner {
@@ -307,6 +352,10 @@
     }
 }
 
+
+
+
+
 @media (max-width: 1280px) {
     .header__logo__nav__conteiner {
         display: none;
@@ -332,16 +381,32 @@
         position: relative;
     }
 
-    
+    .conteiner {
+        width: 100%;
+        max-width: 1280px;
+        position: relative;
+    }
     
     .conteiner8__cards {
         width: 1255px;
+    }
+
+    .footer {
+        width: 100%;
+        max-width: 1280px;
+        position: relative;
     }
 
     .footer__line img {
         width: 1130px;
     }
 }
+
+
+
+
+
+
 
 @media (max-width: 1024px) {
     .header__logo__nav__conteiner {
@@ -359,7 +424,7 @@
     .navbar {
         height: 106px;
         width: 100%;
-        max-width: 768px;
+        max-width: 1024px;
     }
 
     .header__conteiner {
@@ -370,12 +435,140 @@
 
     .conteiner {
         width: 100%;
-        max-width: 768px;
+        max-width: 1024px;
         position: relative;
     }
+
+    .conteiner1_pic1 {
+        z-index: 5;
+        position: relative;
+        top: -510px;
+        right: 20px;
+    }
+
+    .conteiner1_pic0 {
+        z-index: 1;
+        position: relative;
+        top: 80px;
+        left: 10px;
+    }
+
+    .figure-caption h3 {
+        font-size: 14px;
+    }
+
+    .conteiner1 h2 {
+        margin-left: 20px;
+        margin-top: 90px;
+    }
     
+    .conteiner3 h3 {
+        padding-left: 15px;
+    }
+
+    .conteiner3 h2 {
+        padding-left: 15px;
+        
+    }
+
+    .conteiner3 h4 {
+        padding-left: 15px;
+    }
+
+    .conteiner3__flex {
+        position: relative;
+        right: 7px;
+        top: 30px;
+    }
+
+    .conteiner3__flex__Pic0 img{
+        width: 500px;
+        height: 600px;
+    }
+
+    .conteiner3__flex__Pic1 img {
+        width: 450px;
+        height: 550px;
+    }
+
+    .conteiner3__flex__Pic1 {
+        z-index: 0;
+        position: relative;
+        top: -470px;
+        left: 48px;
+    }
+
+    .conteiner4__price h3 {
+        font-size: 17px;
+    }
+
+    .conteiner4__price__flex {
+        display: flex;
+        justify-content: space-between;
+        width: 480px;
+    }
+
+    .conteiner4__price img {
+        width: 480px;
+    }
+
+    #conteiner4__price__flex__h3 {
+        position: relative;
+        left: 122px;
+    }
+
+    #conteiner4__price__flex__h3_1 {
+        position: relative;
+        left: 129px;
+    }
+
+    #conteiner4__price__flex__h3_2 {
+        position: relative;
+        left: 118px;
+    }
+
+    #conteiner4__price__flex__h3_3 {
+        position: relative;
+        left: 100px;
+    }
+
+    #conteiner4__price__flex__h3_4 {
+        position: relative;
+        left: 100px;
+    }
+
+    #conteiner4__price__flex__h3_5 {
+        position: relative;
+        left: 106px;
+    }
+
+    #conteiner4__price__flex__h3_6 {
+        position: relative;
+        left: 115px;
+    }
+
+    #conteiner4__price__flex__h3_7 {
+        position: relative;
+        left: 140px;
+    }
+
+    .conteiner4__pic2 img {
+        height: 420px;
+        width: 450px;
+        position: relative;
+        left: 82px;
+    }
+
     .conteiner8__cards {
-        width: 768px;
+        width: 100%;
+        max-width: 970px;
+        position: relative;
+    }
+
+    .footer {
+        width: 100%;
+        max-width: 1024px;
+        position: relative;
     }
 
     .footer__line img {
