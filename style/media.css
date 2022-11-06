@@ -450,7 +450,7 @@
         z-index: 1;
         position: relative;
         top: 80px;
-        left: 10px;
+        left: -7px;
     }
 
     .figure-caption h3 {
@@ -491,11 +491,31 @@
         height: 550px;
     }
 
+    
     .conteiner3__flex__Pic1 {
         z-index: 0;
         position: relative;
         top: -470px;
-        left: 48px;
+        left: -1px;
+    }
+
+    .conteiner4__price {
+        width: 504px;
+        position: relative;
+        left: 5px;
+    }
+
+    .conteiner4__price__for_shift1 {
+        position: relative;
+        left: -20px;
+        top: 5px;
+        width: 510px;
+    }
+
+    .conteiner4__price__for_shift2 {
+        display: flex;
+        float: right;
+        width: 400px;
     }
 
     .conteiner4__price h3 {
@@ -552,11 +572,48 @@
         left: 140px;
     }
 
+    #conteiner4__pic1 {
+        position: relative;
+        left: 5px;
+        width: 450px;
+    }
+
+    .conteiner4__pic2 {
+        height: 650px;
+        width: 450px;
+        filter: drop-shadow(1px 0px 18px rgba(0, 0, 0, 0.2));
+        border-radius: 0px;
+        position: relative;
+        left: -31px;
+    }
+
     .conteiner4__pic2 img {
         height: 420px;
         width: 450px;
         position: relative;
         left: 82px;
+    }
+
+    .conteiner6__body {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-top: 70px;
+        margin-bottom: 100px;
+        gap: 25px;
+        margin-left: 25px;
+    }
+
+    .conteiner7__form {
+        width: 400px;
+    }
+
+    .conteiner7__form button {
+        width: 300px;
+    }
+
+    .footer__line img {
+        width: 875px;
     }
 
     .conteiner8__cards {
@@ -572,7 +629,12 @@
     }
 
     .footer__line img {
-        width: 600px;
+        width: 880px;
+    }
+
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
     }
 
 }
@@ -588,6 +650,24 @@
 
     .header__menu__1280 {
         display: block;
+    }
+
+    .navbar {
+        height: 106px;
+        width: 100%;
+        max-width: 768px;
+    }
+
+    .header__conteiner {
+        width: 100%;
+        max-width: 768px;
+        position: relative;
+    }
+
+    .conteiner {
+        width: 100%;
+        max-width: 768px;
+        position: relative;
     }
 
 }
