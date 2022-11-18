@@ -717,10 +717,10 @@
     }
 
     .conteiner3__flex {
-            position: relative;
-            right: -169px;
-            top: 30px;
-            gap: 94px;
+        position: relative;
+        right: -169px;
+        top: 30px;
+        gap: 94px;
     }
 
     .conteiner8__cards {
@@ -759,7 +759,7 @@
         z-index: 5;
         position: relative;
         top: -298px;
-        right: -17px;
+        right: -7px;
     }
 
     .conteiner1_pic1 img {
@@ -777,7 +777,114 @@
         line-height: 17px;
     }
 
-    
+    #conteiner4__pic1 {
+        position: relative;
+        top: 38px;
+        left: 40px;
+        width: 380px;
+    }
+
+    #conteiner4__pic1 img {
+        height: 270px;
+        width: 290px;
+    }
+
+    .conteiner4__price__flex {
+        display: flex;
+        justify-content: space-between;
+        width: 380px;
+    }
+
+    .conteiner4__price h2 {
+        font-size: 19px;
+    }
+
+    .conteiner4__price h3 {
+        font-size: 13px;
+    }
+
+    .conteiner4__price img {
+        width: 390px;
+    }
+
+    .conteiner4__price {
+        width: 380px;
+        position: relative;
+        left: -12px;
+        line-height: 5px;
+    }
+
+    .conteiner4__btn button {
+        position: relative;
+        left: 60px;
+        top: 15px;
+    }
+
+    .conteiner4__pic2 {
+        height: 290px;
+        width: 270px;
+        filter: drop-shadow(1px 0px 18px rgba(0, 0, 0, 0.2));
+        border-radius: 0px;
+        position: relative;
+        left: -112px;
+    }
+
+    .conteiner4__pic2 img {
+        height: 290px;
+        width: 270px;
+        position: relative;
+        top: 50px;
+        left: 180px;
+    }
+
+    .conteiner4__price__for_shift2 {
+    display: flex;
+    float: right;
+    width: 380px;
+    position: relative;
+    left: 65px;
+    }
+
+    #conteiner4__price__flex__h3_1 {
+        position: relative;
+        left: 68px;
+    }
+
+    #conteiner4__price__flex__h3_2 {
+        position: relative;
+        left: 68px;
+    }
+
+    #conteiner4__price__flex__h3_3 {
+        position: relative;
+        left: 68px;
+    }
+
+    #conteiner4__price__flex__h3_4 {
+        position: relative;
+        left: 68px;
+    }
+
+    #conteiner4__price__flex__h3_5 {
+        position: relative;
+        left: 68px;
+    }
+
+    #conteiner4__price__flex__h3_6 {
+        position: relative;
+        left: 68px;
+    }
+
+    #conteiner4__price__flex__h3_7 {
+        position: relative;
+        left: 68px;
+    }
+
+    #conteiner4__price__flex__h3_8 {
+        position: relative;
+        left: 68px;
+    }
+
 
 }
 
