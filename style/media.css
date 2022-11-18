@@ -906,7 +906,7 @@
     }
 
     .conteiner5__cards h4 {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .conteiner5__cards__conteiner2 {
@@ -933,7 +933,7 @@
 
     #conteiner5_shift {
         position: relative;
-        left: -33px;
+        left: -25px;
         bottom: 26px;
     }
 
@@ -941,6 +941,17 @@
         width: 359px;
     }
 
+    .conteiner6__body h4 {
+        font-size: 15px;
+    }
+
+    .conteiner6__body h3 {
+        font-size: 11.5px;
+    }
+
+    .conteiner7__form {
+        width: 300px;
+    }
 
 }
 
